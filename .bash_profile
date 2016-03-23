@@ -1,7 +1,6 @@
 alias cdp='cd ~/Documents/olaide/workspace/simulation'
 alias gp='git push'
-alias migrate='bundle exec rake db:migrate && bundle exec rake d
-ndle exec rake db:migrate'
+alias migrate='bundle exec rake db:migrate && bundle exec rake db:migrate RAILS_ENV=production && bundle exec rake db:migrate RAILS_ENV=test '
 alias rs='bundle exec rake spec'
 alias rt='bundle exec rake test'
 alias subl='"/c/Program Files (x86)/Sublime Text 2/sublime_text.exe"'
